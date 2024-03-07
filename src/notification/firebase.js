@@ -13,7 +13,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-const messaging = getMessaging(app);
+export const messaging = getMessaging(app);
 
 export const ganerateToken = async () => {
   let permission = await Notification.requestPermission();
@@ -22,6 +22,18 @@ export const ganerateToken = async () => {
       vapidKey:
         "BC8sy18sEaDlu9_PPI3Ee4QB1gxRtrAai9r6L4cO8Vq6XUKXVzc1k9NFm76BtvBvZecHMhvNH21GecuPEnQKysw",
     });
+
     console.log(token);
+
+    const makePostToken = async () => {
+      await fetch("https://push-notifications-backend.onrender.com/token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          token: token,
+        },
+      });
+    };
+    makePostToken();
   }
 };
