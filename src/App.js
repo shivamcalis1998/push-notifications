@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
+import logo from "./firebase.png";
 import "./App.css";
 import { useEffect } from "react";
-import { ganerateToken } from "./notif/firebase";
+import { ganerateToken } from "./notification/firebase";
 import { getMessaging, onMessage } from "firebase/messaging";
 
 function App() {
@@ -15,20 +15,11 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{ fontWeight: "700", fontSize: "40px" }}>
+        Firebase Push notification
+      </h1>
+
+      <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
 }
