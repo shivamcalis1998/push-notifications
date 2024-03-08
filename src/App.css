@@ -42,6 +42,13 @@ button {
   cursor: pointer;
 }
 
+.formDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  /* align-items: center; */
+}
+
 button:hover {
   background-color: #0056b3;
 }
