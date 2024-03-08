@@ -7,6 +7,12 @@ How to receive push notifications
 
 Push notifications are small pop-up messages sent to a user's device or web app that appear even when the app is not open. They can alert real-time updates or changes to their upcoming plans, bookings, deliveries, and other time-sensitive topics. 
 
+## Screenshots
+![Screenshot (630)](https://github.com/shivamcalis1998/push-notifications/assets/114653221/a0a7d945-90f0-42a9-b734-6acfff13aafb)
+![Screenshot (629)](https://github.com/shivamcalis1998/push-notifications/assets/114653221/6fa90abe-4673-436d-8d5c-b2a28a806f33)
+
+
+
 So I'm interested how we can easily add receiving push notifications to our web app. In today's tutorial, I'm going to do it through [Firebase Cloud Messaging (FCM)](https://firebase.google.com/products/cloud-messaging?gclid=Cj0KCQjw4omaBhDqARIsADXULuXjc3usXl7wxVaW_mdNdiv6CLc5p_lCc7Atsz_V6Icjg62Atj5WLmkaAqmKEALw_wcB&gclsrc=aw.ds). It is a cross-platform messaging solution that lets you reliably send messages at no cost.
 
 ## Getting Started
