@@ -8,8 +8,8 @@ How to receive push notifications
 Push notifications are small pop-up messages sent to a user's device or web app that appear even when the app is not open. They can alert real-time updates or changes to their upcoming plans, bookings, deliveries, and other time-sensitive topics. 
 
 ## Screenshots
-![Screenshot (630)](https://github.com/shivamcalis1998/push-notifications/assets/114653221/a0a7d945-90f0-42a9-b734-6acfff13aafb)
 ![Screenshot (629)](https://github.com/shivamcalis1998/push-notifications/assets/114653221/6fa90abe-4673-436d-8d5c-b2a28a806f33)
+![Screenshot (630)](https://github.com/shivamcalis1998/push-notifications/assets/114653221/a0a7d945-90f0-42a9-b734-6acfff13aafb)
 
 
 
